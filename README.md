@@ -3,11 +3,13 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: The naked twins function adds a constraint to the existing set of units. Similar to the only_choice function,
+the function replaces the values which are constrained by the dual pairs in a unit.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: The diagonal sudoku adds another unit to the unitlist. The functions which we use to reduce the puzzle size 
+don't need to be altered to accomodate the extra constraint.
 
 ### Install
 
